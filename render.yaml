@@ -2,6 +2,6 @@ services:
   - type: cron
     name: executive-brief-cron
     runtime: python
-    schedule: "55 8 * * 1-5"
+    schedule: "55 12 * * 1-5"
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python main.py"
